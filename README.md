@@ -29,15 +29,6 @@
 
 **Liftrix** is a comprehensive Android fitness platform that combines personal workout tracking with social engagement and AI-powered insights. Built with enterprise-grade architecture patterns, it delivers a premium fitness experience through offline-first design and real-time synchronization.
 
-### 🎯 Key Highlights
-
-- **📱 Modern UI**: 100% Jetpack Compose with Material 3 design system
-- **🔄 Offline-First**: Room database as source of truth with Firebase sync
-- **🤖 AI Integration**: Chat bot for intelligent coaching
-- **👥 Social Features**: Privacy-first feed system with engagement tracking
-- **📊 Advanced Analytics**: 8 specialized widgets with 60fps chart rendering
-- **🔐 Security**: User-scoped data isolation and privacy controls
-
 ---
 ## 🔒 Closed Source
 
@@ -136,17 +127,8 @@ DAO Layer (28 DAOs)
 Room Database (29 Entities)
     ↓ Background Sync
 Firebase Services (8 Integrated)
+
 ```
-
-### Key Architectural Patterns
-
-- **🎯 MVVM with MVI**: Unidirectional data flow with event handling
-- **🔒 User Scoping**: Mandatory userId filtering for data security
-- **🔄 Offline-First**: Room as single source of truth
-- **⚡ Type-Safe Navigation**: Serializable routes with compile-time safety
-- **💉 Dependency Injection**: 22 Hilt modules for clean separation
-
----
 
 ## 🛠️ Tech Stack
 
@@ -335,6 +317,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 </div>
+
 
 
 
